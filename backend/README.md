@@ -1,37 +1,10 @@
-# Node.js Express & MongoDB: CRUD Rest APIs
+# Node Express Mongo Example
 
-For more detail, please visit:
-> [Node.js, Express & MongoDb: Build a CRUD Rest Api example](https://bezkoder.com/node-express-mongodb-crud-rest-api/)
+This is a sample application demonstrating how to build an Node.js express RESTful application that integrates with MongoDB. You can see the [tutorial here](https://codetree.dev/node-rest-api-tutorial/)
 
-> [Server side Pagination in Node.js with MongoDB and Mongoose](https://bezkoder.com/node-js-mongodb-pagination/)
+## Running the application
 
-Security:
-> [Node.js + MongoDB: User Authentication & Authorization with JWT](https://bezkoder.com/node-js-mongodb-auth-jwt/)
-
-Associations:
-> [MongoDB One-to-One relationship tutorial with Mongoose examples](https://bezkoder.com/mongoose-one-to-one-relationship-example/)
-
-> [MongoDB One-to-Many Relationship tutorial with Mongoose examples](https://bezkoder.com/mongoose-one-to-many-relationship/)
-
-> [MongoDB Many-to-Many Relationship with Mongoose examples](https://bezkoder.com/mongodb-many-to-many-mongoose/)
-
-Fullstack:
-> [Vue.js + Node.js + Express + MongoDB example](https://bezkoder.com/vue-node-express-mongodb-mevn-crud/)
-
-> [Angular 8 + Node.js + Express + MongoDB example](https://bezkoder.com/angular-mongodb-node-express/)
-
-> [Angular 10 + Node.js + Express + MongoDB example](https://bezkoder.com/angular-10-mongodb-node-express/)
-
-> [Angular 11 + Node.js + Express + MongoDB example](https://bezkoder.com/angular-11-mongodb-node-js-express/)
-
-> [React + Node.js + Express + MongoDB example](https://bezkoder.com/react-node-express-mongodb-mern-stack/)
-
-## Project setup
-```
-npm install
-```
-
-### Run
-```
-node server.js
-```
+1. Clone the repo
+2. Install dependencies: `npm install`
+3. Start your mongoDB instance. This repo works on an instance running on `localhost:27017`
+4. Start the application: `node index.js`
