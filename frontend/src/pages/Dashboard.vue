@@ -52,7 +52,6 @@
 import OptionButton from "../components/common/Button";
 import ProgressBar from "../components/common/ProgressBar";
 import SummaryContainer from "./summary/Index";
-import axios from "axios";
 
 export default {
   components: { SummaryContainer, OptionButton, ProgressBar },
@@ -80,7 +79,9 @@ export default {
     }
   },
   mounted() {
-    axios.get("http://localhost:3000/questions").then(response => (this.questions = response));
+    this.$http.get("http://localhost:3000/questions").then(response => {
+      this.questions = response;
+    });
   },
   methods: {
     likesFood(aFood) {
