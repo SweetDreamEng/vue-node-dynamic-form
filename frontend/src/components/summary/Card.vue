@@ -1,6 +1,6 @@
 <template>
   <v-card class="mx-left summary-answer-card" width="600" tile>
-    <v-row>{{ item.message }}</v-row>
+    {{ item.message }}
     <v-text-field v-model="answer" disabled></v-text-field>
   </v-card>
 </template>
@@ -14,14 +14,14 @@ export default {
     }
   },
   computed: {
-    answer: function() {
-      if (this.item.type === "confirm") {
-        return this.item.value ? "YES" : "NO";
+    answer: function () {
+      if (this.item.type === 'confirm') {
+        return this.item.value ? 'YES' : 'NO'
       }
-      return this.item.value;
+      return this.item.value
     }
   }
-};
+}
 </script>
 
 <style scoped>

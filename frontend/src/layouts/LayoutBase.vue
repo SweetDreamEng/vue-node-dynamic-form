@@ -32,6 +32,6 @@
 </template>
 <script>
 export default {
-  name: "LayoutBase"
-};
+  name: 'LayoutBase'
+}
 </script>
